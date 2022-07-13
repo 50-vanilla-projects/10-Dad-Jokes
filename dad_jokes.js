@@ -14,3 +14,5 @@ function getJoke() {
         joke.innerHTML = data.joke
     })
 }
+
+button.addEventListener('click', getJoke);
