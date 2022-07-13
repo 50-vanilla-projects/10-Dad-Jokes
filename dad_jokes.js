@@ -10,5 +10,7 @@ function getJoke() {
         }
     })
     .then(response => response.json())
-    .then(data => console.log(data));
+    .then(data => {
+        joke.innerHTML = data.joke
+    })
 }
