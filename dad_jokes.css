@@ -19,7 +19,7 @@ main {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 5rem 7rem 3rem;
+    padding: 5rem 3rem;
     background-color: white;
     border-radius: 5px;
 }
